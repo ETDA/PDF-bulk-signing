@@ -9,6 +9,9 @@
 - eToken ที่มี Certificate 
 ### Output
 - PDF ที่ถูกลงนาม
+### ทดสอบ
+- download folder <a href="https://github.com/ETDA/PDF-bulk-signing/tree/main/demojar" target="_blank">demojar</a>
+- ใช้ appBulkSign.jar สำหรับทดสอบ โดยจะมี config อยู่ใน resources 
 ## Function
 - สามารถลงนามหลายเอกสาร
 - สามารถลงนามเอกสาร 
