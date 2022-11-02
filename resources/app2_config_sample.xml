@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<tsa>
+		<timeStampType>computer_clock</timeStampType>
+		<url>-</url>
+		<tsaAuthenticationType>-</tsaAuthenticationType>
+		<tsaCertificateType>
+			<tsaPKCS12File>-</tsaPKCS12File>
+			<tsaPKCS12Password>-</tsaPKCS12Password>
+		</tsaCertificateType>			
+		<tsaUesrPassword>
+			<tsaUsername>-</tsaUsername>
+			<tsaPassword>-</tsaPassword>
+		</tsaUesrPassword>
+	</tsa>
+	<pkcs11>
+		<name>etoken</name>
+		<slot>0</slot>
+		<driver>C:/windows/system32/eTPKCS11.dll</driver>
+		<pkcs11SearchKeyword>CN=SOMEONE</pkcs11SearchKeyword>
+	</pkcs11>
+	<sign>
+		<location>TH</location>
+		<reason>For Sign</reason>
+		<signatureLevel>APPROVAL</signatureLevel>
+		<signaturePattern>GRAPHIC</signaturePattern>
+		<digestAlgorithm>SHA256</digestAlgorithm>		
+	</sign>
+</configuration>
