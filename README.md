@@ -88,6 +88,6 @@
 | 3.    | sign | config การลงนาม |
 | 3.1   | location | สถานที่ทำการลงนาม |
 | 3.2   | reason | เหตุผลในการลงนาม |
-| 3.3   | signatureLevel | กำหนดระดับของการ Sign <br>- APPROVAL<br>- NO_CHANGE<br>- FORM_FILLING<br>- FORM FILLING AND ANNOTATION |
+| 3.3   | signatureLevel | กำหนดระดับของการ Sign <br>- APPROVAL<br>- CERTIFIED_NO_CHANGES_ALLOW<br>- CERTIFIED_FORM_FILLING<br>- CERTIFIED_FORM_FILLING_AND_ANNOTATIONS |
 | 3.4   | signaturePattern | กำหนด signature graphic<br>- DESCRIPTION<br>- NAME_AND_DESCRIPTION<br>- GRAPHIC_AND_DESCRIPTION<br>- GRAPHIC  |
 | 3.5   | digestAlgorithm | กำหนด hash function<br>- SHA256<br>- SHA384<br>- SHA512 |
